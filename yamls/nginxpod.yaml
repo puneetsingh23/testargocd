@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: hello-world
+        image: public.ecr.aws/f1m4b8c1/testargocd:1.0
         ports:
         - containerPort: 80
